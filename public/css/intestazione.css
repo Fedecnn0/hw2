@@ -1,0 +1,97 @@
+html{
+  font-size: 10px;
+}
+
+body {
+  margin: 0px; 
+}
+
+header {
+  height: 100px; 
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+}  
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 3rem;   
+  max-width: 780px;     
+  z-index: 1;    
+  align-self: flex-end;
+}
+
+nav {
+  position: absolute;
+  top: 2%; 
+  right: 2%;
+} 
+
+a:active, a:visited {
+  color: rgb(139, 135, 135);
+}
+
+#flex-container1 {
+  display: flex; 
+}
+
+.flex-item {
+  font-size: 1.5rem; 
+  font-weight: 900;
+  font-family: Hurricane, sans-serif;
+  border-radius: 20px; 
+  width: 60px; 
+  margin: 8px; 
+  text-align: center; 
+}
+
+footer {
+  display: flex;
+  height: 35px;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+ 
+h2 {
+  font-family: Caveat, sans-serif;
+  font-style: italic;
+  margin-right: 2%;
+}
+
+@media (max-width: 500px) { 
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  header {
+    height: 80px; 
+  }
+
+  .flex-item {
+    font-size: 1rem; 
+    width: 40px; 
+    margin: 8px; 
+  }
+
+  main {
+    height: 500px;
+  }
+
+  form {
+    max-width: 230px;
+  }
+
+  label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  input {
+    margin: 2px;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+}

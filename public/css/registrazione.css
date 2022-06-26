@@ -1,0 +1,29 @@
+form span {
+  display: none;
+  opacity: 0;
+  font-size: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.errori label {
+    color: #fa1c2c;
+}
+
+.errori span {
+  opacity: 1;
+  color: #c80b0b;
+  display: block;
+  text-align: center;
+}
+
+.errori input {
+  border-color: #fa1c2c;
+}
+
+.errore span {
+    display: block;
+    opacity: 1;
+    text-align: center;
+    color: #fa1c2c;
+}
+

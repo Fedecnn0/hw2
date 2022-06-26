@@ -1,0 +1,16 @@
+.contatto {
+    font-size: 2rem;
+}
+  
+#email {
+    margin: 0%;
+}
+
+form {
+    align-items: center;
+}
+
+#testo {
+    text-align: center;
+    font-weight: 900;
+}

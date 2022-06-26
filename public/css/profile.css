@@ -1,0 +1,164 @@
+a.block { 
+    width: 25px;
+    height: 25px;
+    background-image: url('../img/piùunselected.png');
+    background-size:contain;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 2px;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+a.block:hover, a.block:focus, a.block:active { 
+    background-image: url('../img/piùselected.jpeg');
+}
+
+article {
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#lista, #posts{
+    font-weight: 900;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: grey;
+}
+
+#box-preferiti, #posts {
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#box-posts {
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cont, .post {
+    margin: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: 1px solid #424242ab;
+    border-radius: 5%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    width: 60%;
+    border-radius: 0;
+}
+
+.cont img, .post img {
+    height: 200px;
+    width: 200px;
+}
+.post img {
+    border-radius: 5%;
+}
+  
+.cont:hover, .post:hover {
+    transform: scale(1.05);
+}
+  
+.cont h1{
+    margin: 5px 0 0 0;
+    align-self: center;
+    font-size: 1.5rem; 
+    color: #424242;
+}
+
+.post p {
+    display: flex;
+    margin-left: 15px;
+    width: 95%;
+    font-size: 1.5rem;
+    justify-items: center;
+}
+
+.button{
+    height: 20px;
+    width: 20px;
+    align-self: flex-end;
+    background-size: contain;
+}
+
+.pref {
+    background-image: url("../img/like_d.svg");
+}
+
+.invisibile {
+    display: none;
+}
+
+.prefvuoto {
+    font-size: 2rem;
+    background-color: #42424257;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.ft {
+    width: 100%;
+    display: flex;
+}
+
+.sotto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 1px solid #424242;
+    padding-top: 10px;
+}
+
+.bid {
+    background-image: url("../img/cestino.png");
+}
+
+.bid:hover {
+    background-image: url("../img/cestaperto.png");
+}
+
+.comm {
+    background-image: url("../img/commenti.png");
+}
+
+
+.like {
+    background-image: url("../img/like.svg");
+}
+
+
+
+.username {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.totlike {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 500px) { 
+    .ft {
+        flex-direction: column;
+        align-items: center;
+    }
+}

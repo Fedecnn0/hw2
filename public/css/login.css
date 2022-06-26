@@ -1,0 +1,5 @@
+.login .username, .login .password {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

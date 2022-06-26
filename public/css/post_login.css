@@ -1,0 +1,65 @@
+header, footer {
+    background-image: url('../img/zampe.jpg');
+}
+
+h1, h2 { 
+  color: rgb(0, 0, 0);   
+}
+
+a:link {
+  color: white;
+}
+
+.flex-item {
+  background-color: rgb(0, 0, 0);
+}
+
+#barra {
+  background-color: black;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.lato {
+  font-size: 1.7rem;
+  border-bottom: 1px solid white;
+  margin-bottom: 15px;
+  width: 75px;
+}
+
+section {
+  display: flex;
+}
+
+#altro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media (max-width: 500px) { 
+
+  nav{
+    justify-content: space-between;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  #barra {
+    padding:0 ;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+  }
+   
+  .lato {
+    font-size: 1.2rem;
+    width: 40px;
+  }
+}
+

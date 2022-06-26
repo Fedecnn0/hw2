@@ -1,0 +1,65 @@
+#banner-message {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#breed_data {
+  background: #fff;
+  text-align: left;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#breed_image {
+  background: #fff;
+  margin: 0 auto;
+  width: 460px;
+}
+
+.invisibile {
+  display: none;
+}
+
+#info {
+  font-size: 2rem;
+}
+/*
+.post {
+  border: 2px solid grey;
+  height: 200px;
+  width: 90%;
+}*/
+
+#preferiti {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cuore {
+  height: 20px;
+  width: 20px;
+  margin-right: 3px;
+}
+
+#bordo {
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.438);
+  border-radius: 15%;
+  margin: 10px;
+  padding: 2px 5px 0px 5px;
+  align-items: inherit;
+}
+
+@media (max-width: 500px){
+  
+  #breed_image {
+    width: 250px;
+    margin-left: 18%;
+  }
+
+  #breed_data{
+    width: auto;
+  }
+}

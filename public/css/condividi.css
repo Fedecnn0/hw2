@@ -1,0 +1,148 @@
+a.block { 
+  width: 25px;
+  height: 25px;
+  background-image: url('../img/vuota.png');
+  background-size:contain;
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 2px;
+  align-self: flex-end;
+  margin-right: 20px;
+  position: fixed;
+  top: 150;
+}
+
+a.block:hover, a.block:focus, a.block:active { 
+  background-image: url('../img/piena.png');
+}
+
+#post {
+  border: 0px;
+  background-color: rgba(241, 235, 235, 0);
+}
+
+form {
+  background-color: rgba(241, 235, 235, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 0%;
+  height: 75%;
+}
+  
+span {
+  color: rgb(171, 21, 21);
+  font-size: 1rem;
+}
+
+.login, .registrazione{
+  font-size: 2.5rem;
+  font-weight: 900;
+  align-self: center;
+}
+
+main {
+  flex-grow: 1; 
+}
+
+.invisibile {
+  display: none;
+}
+
+a:link {
+  color: white;
+}
+
+#fuori {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+
+#boh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.post {
+  border: 2px solid grey;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.immagine{
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.495);
+  height: 180px;
+  width: 180px;
+  margin-left: 15px;
+}
+
+.immagine, .didascalia {
+  display: flex;
+}
+
+.didascalia {
+  height: 180px;
+  width: 100%;
+  margin: 20px;
+  outline-width: 0px;
+}
+
+#upload_original {
+  display: none;
+}
+
+#upload {
+  background: var(--background);
+  padding: 8px;
+  border: 2px solid var(--background);
+  color: var(--text);
+  border-radius: 4px;
+  transition: border ease 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#upload .file_name {
+  background: url(../img/upload.svg) left center no-repeat;
+  padding-left: 25px;
+  padding-right: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 0.8rem;
+}
+
+#upload .file_size {
+  font-size: 1rem;
+  color: #9da2ab;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+img {
+  background-size: contain;
+  height: 180px;
+  width: 180px;
+}
+
+@media (max-width: 500px){
+  form {
+      max-width: 100%; 
+  }
+}

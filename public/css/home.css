@@ -1,0 +1,57 @@
+main {
+    width: 100%; 
+    display: flex;
+    flex-grow: 1; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+div {
+    width: 100%;
+}
+  
+a.block { 
+    display:block;
+    background-color: rgba(241, 235, 235, 0.938);
+    width: 85%;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0); 
+    text-decoration: none;
+    margin: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+a.block:hover {
+    transform: scale(1.05);
+}
+  
+.testo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+#condividi {
+    background-image: url('../img/cond.jpeg');
+    background-size: contain;
+}
+  
+#acquista {
+    background-image: url('../img/acquista.png');
+    background-size: cover;
+}
+/*  
+#adotta {
+    background-image: url('../img/canile.jpeg');
+    background-size: contain;
+}
+  
+.selezionato {
+    background-color: #cfe3ff;
+}
+
+.invisibile {
+display: none;
+}*/

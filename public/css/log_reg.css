@@ -1,0 +1,38 @@
+label{
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+  
+input {
+    margin-left: 15px;
+}
+
+.login, .registrazione{
+    font-size: 2.5rem;
+    font-weight: 900;
+    align-self: center;
+}
+
+#link {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error {
+    font-size: 1.1rem;
+    align-self: center;
+    color: red;
+}
+
+@media (max-width: 500px) { 
+    .ins {
+      margin: 2px;
+      width: 100px;
+    }
+}
